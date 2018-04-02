@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">When2Meet Mobile</string>
+    <string name="add_event_btn">Add Event</string>
+    <string name="current_events_btn">My Events</string>
+    <string name="profile_btn">My Profile</string>
+    <string name="title_activity_event">EventActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="group_event_title">Group Page</string>
+    <string name="individual_event_title">Individual Page</string>
+    <string name="days_of_week">Days of Week</string>
+    <string name="next_btn">Next</string>
+    <string name="title_activity_popup_cal">PopupCalActivity</string>
+    <string name="start_time_text">Start Time</string>
+    <string name="end_time_text">End Time</string>
+    <string name="select_weekdays_label">Select Weekdays</string>
+    <string name="selected_dates">Selected Dates</string>
+    <string name="select_calendar_btn">Select Dates</string>
+    <string name="calendar_date_picker_result_values">Year: %1$d\nMonth: %2$d\nDay: %2$d</string>
+    <string name="NameField">Name</string>
+    <string name="BioField">Bio</string>
+    <string name="finish_btn">Finish</string>
+    <string name="setProfile">Set Profile</string>
+    <string name="Nickname">Nickname (optional)</string>
+</resources>

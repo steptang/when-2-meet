@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyMaterialTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MyMaterialTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomRadialPickerStyle" parent="BetterPickersRadialTimePickerDialog.PrimaryColor">
+        <item name="bpPreHeaderBackgroundColor">@color/timePickerLightColor</item>
+        <item name="bpHeaderBackgroundColor">@color/timePickerLightestColor</item>
+        <item name="bpHeaderSelectedTextColor">@color/timePickerDarkColor</item>
+        <item name="bpHeaderUnselectedTextColor">@android:color/white</item>
+
+        <item name="bpBodyBackgroundColor">@color/timePickerLightestColor</item>
+        <item name="bpBodySelectedTextColor">@color/timePickerDarkColor</item>
+        <item name="bpBodyUnselectedTextColor">@android:color/white</item>
+
+        <item name="bpRadialBackgroundColor">@color/timePickerLightColor</item>
+        <item name="bpRadialTextColor">@color/timePickerDarkColor</item>
+        <item name="bpRadialPointerColor">@android:color/black</item>
+
+        <item name="bpButtonsBackgroundColor">@color/timePickerLightColor</item>
+        <item name="bpButtonsTextColor">@color/timePickerDarkColor</item>
+    </style>
+
+</resources>

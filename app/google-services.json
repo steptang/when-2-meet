@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1075281233806",
+    "firebase_url": "https://s18-4-when2meetformobile.firebaseio.com",
+    "project_id": "s18-4-when2meetformobile",
+    "storage_bucket": "s18-4-when2meetformobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075281233806:android:6e65e60624e96671",
+        "android_client_info": {
+          "package_name": "com.a4.cis350.when2meetmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075281233806-vq613917j4l4atmno4a07qhsc7qj9hbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.a4.cis350.when2meetmobile",
+            "certificate_hash": "110bc8f8008392acf9e3de8198dc792fa1e3bbfe"
+          }
+        },
+        {
+          "client_id": "1075281233806-vr5l78kblsoc725s5g78k8rr1n49vn7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASf7b0-QC_eCg13vZKAsYjcNT7WyaUWIo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075281233806-vr5l78kblsoc725s5g78k8rr1n49vn7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

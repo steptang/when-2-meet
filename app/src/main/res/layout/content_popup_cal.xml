@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.a4.cis350.when2meetmobile.PopupCalActivity"
+    tools:showIn="@layout/activity_popup_cal">
+
+    <com.darwindeveloper.onecalendar.views.OneCalendarView
+        android:id = "@+id/oneCalendar"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        app:backgroundColorDaysOfAnotherMonth = "@color/colorPrimary"
+        app:backgroundColorDaysOfMonth = "#53c0c0c1"
+        app:backgroundColorSelectedDay = "#d2d2d2"
+        app:calendarBackgroundColor = "@color/colorPrimary"
+        app:calendarLanguage = "EN"
+        app:currentDayBackgroundColor = "#fad501"
+        app:mainBackgroundColor = "@color/colorPrimary"
+        app:textColorDaysOfAnotherMonth = "#fff"
+        app:textColorDaysOfMonth = "#fff"
+        app:textColorMonthAndYear = "@color/colorPrimary"
+        app:textColorSelectedDay = "#000000"  />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.a4.cis350.when2meetmobile.IndividualFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/individual_event_title"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/calAvailIndiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/select_calendar_btn"
+        android:layout_marginTop="84dp"/>
+
+
+
+</RelativeLayout>
